@@ -1,0 +1,16 @@
+{
+  "name": "Claude Academia — de 0 a Infinito",
+  "short_name": "ClaudeAcademia",
+  "description": "Aprende a usar Claude desde cero hasta desplegar infraestructura real. Por Alberti Juan.",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "background_color": "#07070f",
+  "theme_color": "#7c6aff",
+  "orientation": "any",
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png" }
+  ],
+  "categories": ["education", "productivity"],
+  "lang": "es"
+}
