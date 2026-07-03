@@ -174,7 +174,7 @@ function renderModuleCard(mod) {
       <p class="mc-desc">${mod.descripcion}</p>
       <div class="mc-stats">
         <span>${mod.lecciones.length} lecciones</span>
-        ${!mod.gratis ? `<span class="free-badge">Vista previa gratis</span>` : `<span class="free-badge all-free">Todo gratis</span>`}
+        <span class="free-badge all-free">Todo gratis</span>
       </div>
       <div class="mc-progress">
         <div class="mc-track"><div class="mc-fill" style="width:${prog.pct}%; background:${color}"></div></div>
@@ -192,19 +192,18 @@ function renderModule(mod) {
 
   const lessons = mod.lecciones.map((l, i) => {
     const done = isComplete(l.id);
-    const locked = !l.gratis;
     return `
-      <div class="lesson-row ${done ? 'done' : ''} ${locked ? 'locked' : ''}"
-           onclick="${locked ? 'showPaywall()' : `openLesson('${mod.id}', '${l.id}')`}">
+      <div class="lesson-row ${done ? 'done' : ''}"
+           onclick="openLesson('${mod.id}', '${l.id}')">
         <div class="lr-num" style="color:${color}">${String(l.num).padStart(2,'0')}</div>
         <div class="lr-info">
           <div class="lr-title">${l.titulo}</div>
           <div class="lr-meta">
             <span>${l.tiempo}</span>
-            ${locked ? '<span class="lock-icon">🔒 Plan educativo</span>' : '<span class="free-tag">Gratis</span>'}
+            <span class="free-tag">Gratis</span>
           </div>
         </div>
-        <div class="lr-status">${done ? '✓' : locked ? '›' : '›'}</div>
+        <div class="lr-status">${done ? '✓' : '›'}</div>
       </div>
     `;
   }).join('');
@@ -225,13 +224,6 @@ function renderModule(mod) {
           <span style="color:${color}">${prog.done}/${prog.total} completadas</span>
         </div>
       </div>
-
-      ${!mod.gratis ? `
-        <div class="preview-banner">
-          <span>👁️ Las primeras ${mod.gratis_preview} lecciones son gratuitas.</span>
-          <span class="pb-cta">El resto requiere plan educativo.</span>
-        </div>
-      ` : ''}
 
       <div class="lessons-list">${lessons}</div>
     </div>
@@ -313,33 +305,6 @@ function renderLesson(lesson, mod) {
 
     </div>
   `;
-}
-
-// ── PAYWALL ────────────────────────────────────────────────
-function showPaywall() {
-  document.getElementById('app').insertAdjacentHTML('beforeend', `
-    <div class="paywall-overlay" onclick="closePaywall(event)">
-      <div class="paywall-modal">
-        <div class="pw-icon">🔒</div>
-        <h2>Lección del plan educativo</h2>
-        <p>Esta lección requiere el plan educativo de Claude Academia.</p>
-        <div class="pw-features">
-          <div>✓ Módulo Intermedio completo (20 lecciones)</div>
-          <div>✓ Módulo Avanzado completo (40 lecciones)</div>
-          <div>✓ Prompts para desplegar infraestructura real</div>
-          <div>✓ Actualizaciones de por vida</div>
-        </div>
-        <div class="pw-cta-note">Este proyecto es de libre uso recreativo y educativo.<br>Las lecciones avanzadas financian el desarrollo continuo.</div>
-        <button class="pw-close" onclick="closePaywall()">← Volver a las lecciones gratuitas</button>
-      </div>
-    </div>
-  `);
-}
-
-function closePaywall(e) {
-  if (!e || e.target.classList.contains('paywall-overlay') || e.currentTarget.classList.contains('pw-close')) {
-    document.querySelector('.paywall-overlay')?.remove();
-  }
 }
 
 // ── UTILS ──────────────────────────────────────────────────

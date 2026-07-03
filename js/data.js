@@ -273,8 +273,7 @@ Responsable: [Tu nombre]
     nivel: 'intermedio',
     emoji: '⚡',
     color: '#ffd86a',
-    gratis: false,
-    gratis_preview: 4,
+    gratis: true,
     lecciones: [
       {
         id: 'M2L1', num: 1, titulo: 'La trinidad: Contexto + Rol + Formato',
@@ -336,7 +335,7 @@ Solo eso. No el plan completo. Solo el arranque.`,
       },
       {
         id: 'M2L5', num: 5, titulo: 'Claude como mediador de conflictos',
-        gratis: false, tiempo: '8 min',
+        gratis: true, tiempo: '8 min',
         concepto: 'Podés pedirle a Claude que analice un conflicto desde TODAS las perspectivas simultáneamente, incluyendo la tuya con sus puntos ciegos.',
         tecnica: 'Análisis multiperspectiva',
         mal: 'Mi compañero de trabajo me cae mal, ¿qué hago?',
@@ -353,7 +352,7 @@ Luego: el script exacto de lo que debería decirle en una conversación de 5 min
       },
       {
         id: 'M2L6', num: 6, titulo: 'Estudiar cualquier tema en modo turbo',
-        gratis: false, tiempo: '9 min',
+        gratis: true, tiempo: '9 min',
         concepto: 'Claude puede ser tu tutor personalizado que adapta la complejidad, usa tus ejemplos y sabe exactamente cuándo empujarte al siguiente nivel.',
         tecnica: 'Tutor adaptativo',
         mal: 'Explicame la relatividad especial.',
@@ -373,7 +372,7 @@ No avances hasta que yo responda la pregunta del punto 4.`,
       },
       {
         id: 'M2L7', num: 7, titulo: 'Planificar un viaje completo en 3 minutos',
-        gratis: false, tiempo: '6 min',
+        gratis: true, tiempo: '6 min',
         concepto: 'Claude puede planificar itinerarios hiperdetallados considerando logística real: horarios, distancias, presupuesto y preferencias personales.',
         tecnica: 'Planning con restricciones reales',
         mal: '¿Qué hacer en Buenos Aires?',
@@ -389,7 +388,7 @@ Formato: tabla por día con columnas Hora | Lugar | Actividad | Costo estimado |
       },
       {
         id: 'M2L8', num: 8, titulo: 'Claude como entrenador personal',
-        gratis: false, tiempo: '7 min',
+        gratis: true, tiempo: '7 min',
         concepto: 'Un entrenador personal en el bolsillo. La diferencia está en darle tus datos reales, no los de "alguien promedio".',
         tecnica: 'Plan adaptado a tu biología',
         mal: '¿Cómo bajo de peso?',
@@ -408,7 +407,7 @@ Dame:
       },
       {
         id: 'M2L9', num: 9, titulo: 'Escribir lo que no sabés escribir',
-        gratis: false, tiempo: '8 min',
+        gratis: true, tiempo: '8 min',
         concepto: 'Claude puede escribir cualquier tipo de documento que nunca escribiste antes: una demanda civil, una carta notarial, un recurso administrativo.',
         tecnica: 'Escritura formal guiada',
         mal: 'Escribime una carta de reclamo.',
@@ -428,7 +427,7 @@ FECHAS: compra 12/03/2025, falla reportada 15/06/2025, respuesta negativa empres
       },
       {
         id: 'M2L10', num: 10, titulo: 'Analizar una decisión con pre-mortem',
-        gratis: false, tiempo: '9 min',
+        gratis: true, tiempo: '9 min',
         concepto: 'Imaginás que ya fallaste y buscás las causas. La técnica más poderosa para tomar decisiones bajo incertidumbre.',
         tecnica: 'Pre-mortem decision analysis',
         mal: '¿Debería abrir mi propio negocio?',
@@ -447,7 +446,7 @@ Sé brutalmente honesto. No quiero aliento. Quiero ver lo que no quiero ver.`,
       },
       {
         id: 'M2L11', num: 11, titulo: 'Claude para criar hijos (sin juicio)',
-        gratis: false, tiempo: '7 min',
+        gratis: true, tiempo: '7 min',
         concepto: 'Una de las aplicaciones más útiles y menos usadas: crianza, comunicación con hijos, situaciones difíciles en familia.',
         tecnica: 'Psicología aplicada cotidiana',
         mal: 'Mi hijo de 8 años no quiere estudiar.',
@@ -462,7 +461,7 @@ Analizá desde la perspectiva de psicología del desarrollo:
       },
       {
         id: 'M2L12', num: 12, titulo: 'Crear contenido visual con solo texto',
-        gratis: false, tiempo: '8 min',
+        gratis: true, tiempo: '8 min',
         concepto: 'Claude puede describir, estructurar y guiar la creación de piezas visuales aunque no genere imágenes. El prompt correcto produce el brief perfecto para cualquier herramienta.',
         tecnica: 'Visual briefing',
         mal: 'Diseñame un logo.',
@@ -482,7 +481,7 @@ Dame el brief en este formato para que pueda dárselo a un diseñador o usarlo e
       },
       {
         id: 'M2L13', num: 13, titulo: 'Negociar cualquier cosa con datos',
-        gratis: false, tiempo: '8 min',
+        gratis: true, tiempo: '8 min',
         concepto: 'Claude puede prepararte para cualquier negociación con datos reales, argumentos estructurados y respuestas para cada objeción.',
         tecnica: 'Negotiation prep completo',
         mal: 'Ayudame a negociar el alquiler.',
@@ -502,7 +501,7 @@ Dame:
       },
       {
         id: 'M2L14', num: 14, titulo: 'Automatizar con lenguaje natural',
-        gratis: false, tiempo: '10 min',
+        gratis: true, tiempo: '10 min',
         concepto: 'Claude puede escribir scripts de automatización en lenguaje que vos describes. Sin saber programar. Describe lo que querés y obtiene el código funcional.',
         tecnica: 'No-code automation via prompt',
         mal: 'Escribime un script para mis archivos.',
@@ -522,7 +521,7 @@ Mostrá el código completo con comentarios en español en cada sección importa
       },
       {
         id: 'M2L15', num: 15, titulo: 'Investigar temas complejos en capas',
-        gratis: false, tiempo: '9 min',
+        gratis: true, tiempo: '9 min',
         concepto: 'Para temas complejos, la técnica de "capas" te da comprensión real en lugar de un muro de texto que no podés procesar.',
         tecnica: 'Layered learning',
         mal: 'Explicame la crisis económica argentina.',
@@ -541,7 +540,7 @@ Al final: la pregunta que debería hacerme para entender si las soluciones propu
       },
       {
         id: 'M2L16', num: 16, titulo: 'Feedback sin herir (y sin mentir)',
-        gratis: false, tiempo: '7 min',
+        gratis: true, tiempo: '7 min',
         concepto: 'Claude puede ayudarte a dar feedback difícil que sea honesto, específico y que la persona pueda recibir sin ponerse a la defensiva.',
         tecnica: 'Radical candor estructurado',
         mal: '¿Cómo le digo a mi empleado que trabaja mal?',
@@ -560,7 +559,7 @@ Dame:
       },
       {
         id: 'M2L17', num: 17, titulo: 'Claude para el barrio (impacto social local)',
-        gratis: false, tiempo: '8 min',
+        gratis: true, tiempo: '8 min',
         concepto: 'Usar Claude para resolver problemas reales de tu comunidad: vecinos, organizaciones barriales, proyectos sociales pequeños.',
         tecnica: 'Social impact prompting',
         mal: 'Ayudame con mi proyecto comunitario.',
@@ -578,7 +577,7 @@ Dame:
       },
       {
         id: 'M2L18', num: 18, titulo: 'Generar negocios de 0 con restricciones reales',
-        gratis: false, tiempo: '9 min',
+        gratis: true, tiempo: '9 min',
         concepto: 'La creatividad real trabaja con restricciones, no sin ellas. Las mejores ideas de negocio nacen de limitaciones específicas.',
         tecnica: 'Constraint-based ideation',
         mal: 'Dame ideas de negocio.',
@@ -600,7 +599,7 @@ Dame 5 ideas. Para cada una:
       },
       {
         id: 'M2L19', num: 19, titulo: 'Aprender a aprender con Claude',
-        gratis: false, tiempo: '10 min',
+        gratis: true, tiempo: '10 min',
         concepto: 'La meta-habilidad: usar Claude para diseñar tu propio sistema de aprendizaje, no solo para aprender un tema.',
         tecnica: 'Learning system design',
         mal: 'Quiero aprender inglés.',
@@ -619,7 +618,7 @@ Diseñame un sistema de aprendizaje personalizado:
       },
       {
         id: 'M2L20', num: 20, titulo: 'El prompt que desbloqueó todo',
-        gratis: false, tiempo: '10 min',
+        gratis: true, tiempo: '10 min',
         concepto: 'Síntesis del módulo: un prompt que combina las 3 herramientas (Contexto + Rol + Formato) con abstracción creativa. El prompt que demuestra que no necesitás más.',
         tecnica: 'Master prompt intermedio',
         mal: '[cualquier prompt de 1 línea sin estructura]',
@@ -661,8 +660,7 @@ Semana 1 y 2 por separado. Cada día: objetivo del día, actividad principal (15
     nivel: 'avanzado',
     emoji: '🛰️',
     color: '#ff6a9b',
-    gratis: false,
-    gratis_preview: 3,
+    gratis: true,
     lecciones: [
       {
         id: 'M3L1', num: 1, titulo: 'El salto mental: de usuario a constructor',
@@ -725,7 +723,7 @@ Dame: el código completo, las instrucciones de registro en ambas APIs (gratuita
       },
       {
         id: 'M3L4', num: 4, titulo: 'Dashboard de datos en tiempo real',
-        gratis: false, tiempo: '12 min',
+        gratis: true, tiempo: '12 min',
         concepto: 'Un dashboard web que se actualiza solo, muestra datos en tiempo real y es accesible desde cualquier dispositivo. Sin pagar hosting.',
         tecnica: 'Real-time dashboard gratuito',
         mal: 'Cómo hago un gráfico con mis datos.',
@@ -749,7 +747,7 @@ Dame:
       },
       {
         id: 'M3L5', num: 5, titulo: 'Bot de Telegram para tu comunidad',
-        gratis: false, tiempo: '13 min',
+        gratis: true, tiempo: '13 min',
         concepto: 'Un bot de Telegram que responde consultas, difunde alertas y conecta a tu comunidad. Gratis, siempre activo, sin servidor propio.',
         tecnica: 'Community bot deployment',
         mal: 'Cómo hago un bot de Telegram.',
@@ -772,7 +770,7 @@ Código completo + instrucciones de setup del bot en @BotFather + deploy.`,
       },
       {
         id: 'M3L6', num: 6, titulo: 'Sistema de radio de emergencia con síntesis de voz',
-        gratis: false, tiempo: '15 min',
+        gratis: true, tiempo: '15 min',
         concepto: 'En zonas aisladas sin internet fija, un sistema de texto-a-voz puede transmitir alertas de emergencia por radio FM local. Claude diseña el sistema completo.',
         tecnica: 'Emergency broadcast system',
         mal: 'Cómo funciona una radio de emergencia.',
@@ -797,7 +795,7 @@ Dame:
       },
       {
         id: 'M3L7', num: 7, titulo: 'Web scraper ético para investigación social',
-        gratis: false, tiempo: '12 min',
+        gratis: true, tiempo: '12 min',
         concepto: 'Recopilar datos públicos de forma sistemática para investigación, periodismo o análisis social. Código funcional con consideraciones éticas.',
         tecnica: 'Ethical data collection',
         mal: 'Cómo scrapeo datos de internet.',
@@ -823,7 +821,7 @@ Dame el código Python completo + análisis automático + dashboard básico en H
       },
       {
         id: 'M3L8', num: 8, titulo: 'Automatización de reportes con IA',
-        gratis: false, tiempo: '13 min',
+        gratis: true, tiempo: '13 min',
         concepto: 'Un sistema que genera reportes profesionales automáticamente, los envía a los stakeholders y archiva todo. Sin intervención humana.',
         tecnica: 'AI-powered automated reporting',
         mal: 'Ayudame a hacer un reporte.',
@@ -844,7 +842,7 @@ Dame el código Python completo con: integración Google Sheets, llamada a API d
       },
       {
         id: 'M3L9', num: 9, titulo: 'Chatbot de atención con memoria',
-        gratis: false, tiempo: '14 min',
+        gratis: true, tiempo: '14 min',
         concepto: 'Un chatbot que recuerda el historial de cada usuario, aprende de las interacciones y mejora sus respuestas con el tiempo.',
         tecnica: 'Stateful chatbot deployment',
         mal: 'Cómo hago un chatbot.',
@@ -865,7 +863,7 @@ Dame código completo, estructura del FAQ.md, y cómo agregar nuevas preguntas s
       },
       {
         id: 'M3L10', num: 10, titulo: 'Sistema de alertas sísmicas locales',
-        gratis: false, tiempo: '15 min',
+        gratis: true, tiempo: '15 min',
         concepto: 'Monitoreo en tiempo real de actividad sísmica con alertas personalizadas para tu región. Usando datos abiertos del INPRES y USGS.',
         tecnica: 'Seismic monitoring system',
         mal: 'Dame información sobre sismos en Argentina.',
@@ -888,7 +886,7 @@ Dame el sistema completo: código Python, dashboard HTML con mapa, instrucciones
       },
       {
         id: 'M3L11', num: 11, titulo: 'Red mesh de comunicaciones offline',
-        gratis: false, tiempo: '16 min',
+        gratis: true, tiempo: '16 min',
         concepto: 'En situaciones de desastre donde la red celular cae, una red mesh con dispositivos de bajo costo permite comunicación entre vecinos sin internet.',
         tecnica: 'Offline mesh network design',
         mal: 'Cómo me comunico sin internet.',
@@ -913,7 +911,7 @@ Dame:
       },
       {
         id: 'M3L12', num: 12, titulo: 'Análisis de agua con sensores y Claude',
-        gratis: false, tiempo: '14 min',
+        gratis: true, tiempo: '14 min',
         concepto: 'Sistema de monitoreo de calidad del agua para comunidades sin acceso a laboratorios. Sensores de bajo costo + análisis con IA.',
         tecnica: 'Environmental IoT monitoring',
         mal: 'Cómo analizo la calidad del agua.',
@@ -937,7 +935,7 @@ Dame: código Arduino completo, código Python para el análisis con Claude, y e
       },
       {
         id: 'M3L13', num: 13, titulo: 'Generador de currículas educativas con IA',
-        gratis: false, tiempo: '12 min',
+        gratis: true, tiempo: '12 min',
         concepto: 'Sistema que genera planes de estudio adaptados a contextos específicos: sin recursos, con diferentes edades, en distintos idiomas.',
         tecnica: 'AI curriculum generation',
         mal: 'Ayudame con el plan de clases.',
@@ -962,7 +960,7 @@ Dame: formulario HTML, backend Python con Flask, integración Claude API, genera
       },
       {
         id: 'M3L14', num: 14, titulo: 'Sistema de votación comunitaria transparente',
-        gratis: false, tiempo: '13 min',
+        gratis: true, tiempo: '13 min',
         concepto: 'Una plataforma de votación simple, transparente y verificable para organizaciones comunitarias. Sin blockchain, sin complejidad innecesaria.',
         tecnica: 'Transparent community voting',
         mal: 'Cómo hacemos votaciones en mi organización.',
@@ -988,7 +986,7 @@ Dame: sistema completo, explicación del mecanismo de anonimización, y guía de
       },
       {
         id: 'M3L15', num: 15, titulo: 'Asistente de salud mental para zonas rurales',
-        gratis: false, tiempo: '15 min',
+        gratis: true, tiempo: '15 min',
         concepto: 'En zonas sin acceso a profesionales de salud mental, un sistema de primeros auxilios psicológicos con derivación y seguimiento.',
         tecnica: 'Mental health first response system',
         mal: 'Cómo ayudo a alguien con problemas emocionales.',
@@ -1011,7 +1009,7 @@ Dame: arquitectura del sistema, los flujos de conversación clave, el protocolo 
       },
       {
         id: 'M3L16', num: 16, titulo: 'Pipeline de datos para investigación climática',
-        gratis: false, tiempo: '14 min',
+        gratis: true, tiempo: '14 min',
         concepto: 'Sistema automatizado que recopila, procesa y analiza datos climáticos de fuentes abiertas para investigación local.',
         tecnica: 'Climate data pipeline',
         mal: 'Dame datos del clima.',
@@ -1034,7 +1032,7 @@ Dame: código Python completo del pipeline, visualizaciones con matplotlib/plotl
       },
       {
         id: 'M3L17', num: 17, titulo: 'Traductor de documentos oficiales',
-        gratis: false, tiempo: '11 min',
+        gratis: true, tiempo: '11 min',
         concepto: 'Sistema que traduce documentos oficiales al lenguaje cotidiano, eliminando la barrera entre la burocracia y las personas.',
         tecnica: 'Plain language translation',
         mal: 'Traducime este documento.',
@@ -1059,7 +1057,7 @@ Dame: app web completa con FastAPI + HTML simple + integración Claude API + dep
       },
       {
         id: 'M3L18', num: 18, titulo: 'Sistema de inventario para pymes con IA',
-        gratis: false, tiempo: '13 min',
+        gratis: true, tiempo: '13 min',
         concepto: 'Gestión de inventario con predicción de demanda usando IA. Para pequeños comercios que no pueden pagar software empresarial.',
         tecnica: 'AI inventory management',
         mal: 'Cómo controlo mi inventario.',
@@ -1083,7 +1081,7 @@ STACK: Python/Flask + SQLite + Claude API + Google Sheets como backup + Railway.
       },
       {
         id: 'M3L19', num: 19, titulo: 'Archivo digital de memoria comunitaria',
-        gratis: false, tiempo: '12 min',
+        gratis: true, tiempo: '12 min',
         concepto: 'Sistema para preservar y hacer accesible la historia oral, fotografías y documentos de comunidades que no tienen archivo físico.',
         tecnica: 'Community memory archive',
         mal: 'Cómo guardo la historia de mi comunidad.',
@@ -1110,7 +1108,7 @@ Dame la arquitectura completa, código de las partes principales, y cómo garant
       },
       {
         id: 'M3L20', num: 20, titulo: 'Red de sensores para agricultura familiar',
-        gratis: false, tiempo: '15 min',
+        gratis: true, tiempo: '15 min',
         concepto: 'Sistema de monitoreo de cultivos con sensores de bajo costo, análisis con IA y recomendaciones específicas para pequeños productores.',
         tecnica: 'Precision agriculture IoT',
         mal: 'Cómo mejoro mi cosecha.',
@@ -1135,7 +1133,7 @@ Dame: código Arduino para los nodos, código Python para análisis, integració
       },
       {
         id: 'M3L21', num: 21, titulo: 'Generador de contratos legales simples',
-        gratis: false, tiempo: '11 min',
+        gratis: true, tiempo: '11 min',
         concepto: 'Sistema que genera contratos básicos adaptados a la legislación argentina para situaciones comunes: alquiler, servicios, préstamos entre particulares.',
         tecnica: 'Legal document generation',
         mal: 'Escribime un contrato.',
@@ -1162,7 +1160,7 @@ Dame: app completa en Python/Flask + integración Claude API + generación PDF/D
       },
       {
         id: 'M3L22', num: 22, titulo: 'Sistema de tutoría con IA para secundaria',
-        gratis: false, tiempo: '13 min',
+        gratis: true, tiempo: '13 min',
         concepto: 'Tutor adaptativo que detecta los errores conceptuales de cada estudiante y genera ejercicios personalizados para superar esas dificultades específicas.',
         tecnica: 'Adaptive learning system',
         mal: 'Haceme ejercicios de matemáticas.',
@@ -1188,7 +1186,7 @@ Dame el sistema completo con backend Python, integración Claude, y deploy optim
       },
       {
         id: 'M3L23', num: 23, titulo: 'Monitoreo de calidad del aire con sensores',
-        gratis: false, tiempo: '14 min',
+        gratis: true, tiempo: '14 min',
         concepto: 'Red de sensores de bajo costo para monitorear calidad del aire en zonas industriales o de alta contaminación. Datos públicos y accesibles.',
         tecnica: 'Air quality monitoring network',
         mal: 'Cómo sé si el aire de mi barrio es sano.',
@@ -1216,7 +1214,7 @@ Dame: código completo Arduino y Python, mapa en tiempo real con Leaflet.js, y g
       },
       {
         id: 'M3L24', num: 24, titulo: 'Asistente de escritura para no escritores',
-        gratis: false, tiempo: '10 min',
+        gratis: true, tiempo: '10 min',
         concepto: 'Sistema que ayuda a personas que nunca escribieron a producir textos complejos: informes, propuestas, cartas formales, sin perder su voz.',
         tecnica: 'Voice-preserving writing assistance',
         mal: 'Escribime un informe.',
@@ -1240,7 +1238,7 @@ Dame: el flujo completo de conversación para cada caso, la integración con Cla
       },
       {
         id: 'M3L25', num: 25, titulo: 'Red de vigilancia forestal ciudadana',
-        gratis: false, tiempo: '15 min',
+        gratis: true, tiempo: '15 min',
         concepto: 'Plataforma donde ciudadanos reportan alertas de deforestación o incendios en tiempo real, con verificación automática y derivación a autoridades.',
         tecnica: 'Citizen science environmental monitoring',
         mal: 'Cómo reporto un incendio.',
@@ -1263,7 +1261,7 @@ Dame: sistema completo, modelo de análisis de imágenes con Claude Vision, sist
       },
       {
         id: 'M3L26', num: 26, titulo: 'Compilador de jurisprudencia local',
-        gratis: false, tiempo: '12 min',
+        gratis: true, tiempo: '12 min',
         concepto: 'Sistema que recopila, organiza y hace buscable la jurisprudencia de juzgados provinciales que no tienen digitalización oficial.',
         tecnica: 'Legal knowledge base',
         mal: 'Cómo busco jurisprudencia.',
@@ -1286,7 +1284,7 @@ Dame: pipeline completo de scraping + OCR + extracción con Claude + búsqueda s
       },
       {
         id: 'M3L27', num: 27, titulo: 'Sistema de microcréditos con análisis crediticio alternativo',
-        gratis: false, tiempo: '13 min',
+        gratis: true, tiempo: '13 min',
         concepto: 'Plataforma para organizaciones de microfinanzas que analiza solicitudes de crédito usando datos alternativos (no historial bancario).',
         tecnica: 'Alternative credit scoring',
         mal: 'Cómo analizo si alguien puede pagar un préstamo.',
@@ -1315,7 +1313,7 @@ Dame la arquitectura, el prompt de análisis para Claude, el sistema de flags, y
       },
       {
         id: 'M3L28', num: 28, titulo: 'Podcast generado por IA sobre tu comunidad',
-        gratis: false, tiempo: '11 min',
+        gratis: true, tiempo: '11 min',
         concepto: 'Sistema automatizado que genera un podcast semanal de noticias locales usando fuentes públicas y síntesis de voz.',
         tecnica: 'AI media production',
         mal: 'Cómo hago un podcast.',
@@ -1339,7 +1337,7 @@ Dame el pipeline completo, el prompt para Claude que genera el guión, y cómo c
       },
       {
         id: 'M3L29', num: 29, titulo: 'Clasificador de residuos con visión',
-        gratis: false, tiempo: '13 min',
+        gratis: true, tiempo: '13 min',
         concepto: 'Kiosco de clasificación de residuos con cámara que analiza qué tirás y te dice en qué contenedor va. Para municipios con reciclaje.',
         tecnica: 'Computer vision waste classification',
         mal: 'Cómo separo la basura.',
@@ -1365,7 +1363,7 @@ Dame: código Python completo para Raspberry Pi, integración Claude Vision API,
       },
       {
         id: 'M3L30', num: 30, titulo: 'Plataforma de microvoluntariado',
-        gratis: false, tiempo: '12 min',
+        gratis: true, tiempo: '12 min',
         concepto: 'Conecta personas que tienen 1 hora libre con organizaciones que necesitan ayuda específica ahora. Matching inteligente por habilidades y ubicación.',
         tecnica: 'Intelligent community matching',
         mal: 'Cómo consigo voluntarios para mi organización.',
@@ -1392,7 +1390,7 @@ Dame: backend Python/FastAPI, app web PWA, algoritmo de matching con Claude, sis
       },
       {
         id: 'M3L31', num: 31, titulo: 'Verificador de noticias para WhatsApp',
-        gratis: false, tiempo: '13 min',
+        gratis: true, tiempo: '13 min',
         concepto: 'Bot de WhatsApp donde enviás un texto o imagen y recibís el análisis de veracidad con fuentes verificables. Para combatir desinformación en grupos familiares.',
         tecnica: 'Fact-checking bot',
         mal: '¿Esto es verdad?',
@@ -1417,7 +1415,7 @@ Dame: integración completa WhatsApp + Claude, el prompt de análisis de veracid
       },
       {
         id: 'M3L32', num: 32, titulo: 'Asistente legal de migrantes',
-        gratis: false, tiempo: '14 min',
+        gratis: true, tiempo: '14 min',
         concepto: 'Sistema que orienta a migrantes sobre sus derechos y el proceso de regularización en Argentina, en múltiples idiomas.',
         tecnica: 'Multilingual legal assistance',
         mal: 'Cómo ayudo a migrantes con sus trámites.',
@@ -1442,7 +1440,7 @@ Dame: bot de Telegram multilenguaje, flujos de conversación para los casos más
       },
       {
         id: 'M3L33', num: 33, titulo: 'Generador de propuestas de financiamiento',
-        gratis: false, tiempo: '12 min',
+        gratis: true, tiempo: '12 min',
         concepto: 'Sistema que ayuda a organizaciones sociales sin capacidad técnica a escribir propuestas para fondos y convocatorias.',
         tecnica: 'Grant writing assistance',
         mal: 'Ayudame a escribir una propuesta.',
@@ -1471,7 +1469,7 @@ Dame el sistema completo con la lógica de entrevista, el módulo de adaptación
       },
       {
         id: 'M3L34', num: 34, titulo: 'Mapa de vulnerabilidad social en tiempo real',
-        gratis: false, tiempo: '15 min',
+        gratis: true, tiempo: '15 min',
         concepto: 'Sistema que integra datos abiertos de múltiples fuentes para generar un mapa actualizado de vulnerabilidad social para toma de decisiones de organizaciones comunitarias.',
         tecnica: 'Social vulnerability mapping',
         mal: 'Dónde hay más necesidad en mi ciudad.',
@@ -1501,7 +1499,7 @@ Dame: pipeline de datos con actualización automática, algoritmo de índice de 
       },
       {
         id: 'M3L35', num: 35, titulo: 'Red de bibliotecas digitales offline',
-        gratis: false, tiempo: '14 min',
+        gratis: true, tiempo: '14 min',
         concepto: 'Sistema que replica una biblioteca digital en zonas sin internet, usando memorias USB y sincronización periódica.',
         tecnica: 'Offline digital library network',
         mal: 'Cómo doy acceso a libros sin internet.',
@@ -1527,7 +1525,7 @@ Dame: sistema completo, script de sincronización, servidor web liviano para la 
       },
       {
         id: 'M3L36', num: 36, titulo: 'Sistema de alerta temprana de violencia de género',
-        gratis: false, tiempo: '15 min',
+        gratis: true, tiempo: '15 min',
         concepto: 'Plataforma diseñada con especialistas para detectar escaladas de riesgo y activar la red de contención antes de que ocurra la crisis.',
         tecnica: 'Early warning safety system',
         mal: 'Cómo ayudo a mujeres en situación de riesgo.',
@@ -1551,7 +1549,7 @@ IMPORTANTE: este sistema se construye con el acompañamiento de organizaciones e
       },
       {
         id: 'M3L37', num: 37, titulo: 'Plataforma de economía circular local',
-        gratis: false, tiempo: '12 min',
+        gratis: true, tiempo: '12 min',
         concepto: 'Sistema de intercambio de bienes y servicios entre vecinos, con matching inteligente que maximiza los intercambios posibles en la comunidad.',
         tecnica: 'Community circular economy platform',
         mal: 'Cómo organizamos trueque en el barrio.',
@@ -1577,7 +1575,7 @@ Dame: sistema web PWA, algoritmo de matching con Claude, sistema de puntos, y c�
       },
       {
         id: 'M3L38', num: 38, titulo: 'Monitor de presupuesto público participativo',
-        gratis: false, tiempo: '13 min',
+        gratis: true, tiempo: '13 min',
         concepto: 'Sistema de seguimiento ciudadano de la ejecución del presupuesto municipal con alertas automáticas de desvíos y herramientas de reclamo.',
         tecnica: 'Participatory budget monitoring',
         mal: 'Cómo controlo en qué gasta el municipio.',
@@ -1600,7 +1598,7 @@ Dame: pipeline completo, dashboard, sistema de alertas, y cómo hacer que los da
       },
       {
         id: 'M3L39', num: 39, titulo: 'Sistema de triage médico rural',
-        gratis: false, tiempo: '15 min',
+        gratis: true, tiempo: '15 min',
         concepto: 'Asistente de triage para puestos sanitarios rurales con personal no médico, que ayuda a priorizar casos y determinar cuándo derivar urgentemente.',
         tecnica: 'Medical triage assistance',
         mal: 'Ayudame con triaje médico.',
@@ -1624,7 +1622,7 @@ VALIDACIÓN: este sistema requiere revisión y validación por profesionales mé
       },
       {
         id: 'M3L40', num: 40, titulo: 'El sistema que dejás operativo para siempre',
-        gratis: false, tiempo: '20 min',
+        gratis: true, tiempo: '20 min',
         concepto: 'Integración final: un sistema completo que combina todo lo aprendido. Monitoreo + alertas + comunidad + datos + IA. Deployado, documentado, y transferible.',
         tecnica: 'Full-stack community infrastructure',
         mal: '[no existe versión mala de esta lección]',

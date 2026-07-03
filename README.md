@@ -113,8 +113,8 @@ Autor: **Alberti Juan** | Licencia: MIT
 | Módulo | Lecciones | Acceso | Tiempo total |
 |--------|-----------|--------|-------------|
 | 🌱 Fundamentos | 12 | Todo gratis | ~70 min |
-| ⚡ Tres Herramientas, Un Mundo | 20 | 4 gratis + plan educativo | ~160 min |
-| 🛰️ Dejar algo operativo en la red | 40 | 3 gratis + plan educativo | ~520 min |
+| ⚡ Tres Herramientas, Un Mundo | 20 | Todo gratis | ~160 min |
+| 🛰️ Dejar algo operativo en la red | 40 | Todo gratis | ~520 min |
 | **Total** | **72** | | **~750 min** |
 
 ---
